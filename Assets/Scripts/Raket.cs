@@ -36,7 +36,7 @@ public class Raket : MonoBehaviour
         {
             downKeys2= false;
         }
-
+        
         if (Input.GetKey(KeyCode.A))
         {
             leftKeys2 = true;
