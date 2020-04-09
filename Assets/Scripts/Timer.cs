@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
@@ -28,6 +29,6 @@ public class Timer : MonoBehaviour
             counter -= 1;
             timerText.text = counter.ToString();
         }
-        timerText.text = "GAME OVER!";
+        SceneManager.LoadScene("GameOverScene");
     }
 }
