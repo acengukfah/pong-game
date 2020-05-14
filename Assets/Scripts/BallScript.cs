@@ -8,6 +8,7 @@ public class BallScript : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animtr;
     public GameObject gm;
+    public AudioSource hitEffect;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +33,10 @@ public class BallScript : MonoBehaviour
         {
             gm.GetComponent<ScoringScript>().UpdateScore(collision.collider.name);
             StartCoroutine(jeda());
+        }
+        if (collision.collider.tag == "Player")
+        {
+            hitEffect.Play();
         }
     }
     IEnumerator jeda()
