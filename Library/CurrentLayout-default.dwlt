@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 35567
+  controlID: 9663
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 35521
+  controlID: 9664
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 35522
+  controlID: 9665
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -420,7 +420,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aaa0ffffdea6ffff52a7ffff74a7ffffceb5fffff4b5fffff6b5ffff80b6ffffa2b6ffff8ab7ffffacb7ffff38b8ffff5eb8fffff8baffff20bcffffbebcffffbabdffff48beffff7abeffffbabeffff1abfffff3cbfffff4ac0ffff94c3ffff4ac5ffff74c5ffffa6d2ffff02d5ffff5ed5ffff86d5ffffa8d5ffffd0d5fffffad5ffff9cd6ffffbed6ffff50dcffffecdeffffe2e7ffff52e9ffff50f5ffff5ef5ffffd6f5ffff00f6ffff3ef6ffffd4f6ffffeaf6ffffaef7ffff4ef8ffff66f8ffffcaf8ffff60faffff8afaffff6cfbffffa63a00006c3b0000e63d00009c420000f8440000c84e0000ee500000ac530000c85300006c5400000c5500005e5500003c5a0000845a00009a5a0000
+      m_ExpandedIDs: a4dcffffe6e0ffff8cf9ffffa8f9ffff6cfbffff3038000026430000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -480,9 +480,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.4313064, y: -1.8018472, z: 117.03906}
+    m_Target: {x: -1.0996709, y: -4.3011193, z: 96.60156}
     speed: 2
-    m_Value: {x: -5.4313064, y: -1.8018472, z: 117.03906}
+    m_Value: {x: -1.0996709, y: -4.3011193, z: 96.60156}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -532,9 +532,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 48.906044
+    m_Target: 38.04933
     speed: 2
-    m_Value: 46.80004
+    m_Value: 38.04933
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -598,20 +598,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GIM\Project Unity\pong-game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de340000
-    m_LastClickedID: 13534
-    m_ExpandedIDs: 00000000d034000000ca9a3b
+    m_SelectedIDs: f2340000
+    m_LastClickedID: 13554
+    m_ExpandedIDs: 00000000f234000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,7 +639,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d034000000ca9a3b
+    m_ExpandedIDs: 00000000f234000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -744,12 +744,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 552
-    width: 1002
+    width: 1152
     height: 272
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -24406
+  m_LastSelectedObjectID: -1670
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -773,21 +773,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 552
-    width: 1002
+    width: 1152
     height: 272
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 7629772387350384571, guid: 99d5638d7c4158242ad9f77ef17094c1, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.85350496
+    - e00: 0.29146537
       e01: 0
       e02: 0
-      e03: -100.68616
+      e03: 179.60602
       e10: 0
-      e11: 0.85350496
+      e11: 0.29146537
       e12: 0
-      e13: 25.605164
+      e13: 58.680233
       e20: 0
       e21: 0
       e22: 1
@@ -851,4 +851,4 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 180
+  m_LastVerticalScrollValue: 0
